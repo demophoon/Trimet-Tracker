@@ -1,14 +1,16 @@
 {
   "uuid": "133215f0-cf20-4c05-997b-3c9be5a64e5b",
-  "shortName": "Pebble.js",
-  "longName": "Pebble.js",
-  "companyName": "Meiguro",
+  "shortName": "PDX Transit",
+  "longName": "Trimet Tracker",
+  "companyName": "Britt Gresham",
   "versionCode": 1,
-  "versionLabel": "0.4",
+  "versionLabel": "1.0",
   "capabilities": [
+    "location",
     "configurable"
   ],
   "watchapp": {
+    "hiddenApp": false,
     "watchface": false
   },
   "appKeys": {},
@@ -19,6 +21,41 @@
         "type": "png",
         "name": "IMAGE_MENU_ICON",
         "file": "images/menu_icon.png"
+      },
+      {
+        "type": "png",
+        "name": "MAX_BLUE",
+        "file": "images/max_blue.png"
+      },
+      {
+        "type": "png",
+        "name": "MAX_RED",
+        "file": "images/max_red.png"
+      },
+      {
+        "type": "png",
+        "name": "MAX_GREEN",
+        "file": "images/max_green.png"
+      },
+      {
+        "type": "png",
+        "name": "MAX_YELLOW",
+        "file": "images/max_yellow.png"
+      },
+      {
+        "type": "png",
+        "name": "TRIMET_RAIL",
+        "file": "images/trimet_rail.png"
+      },
+      {
+        "type": "png",
+        "name": "TRIMET_BUS",
+        "file": "images/trimet_bus.png"
+      },
+      {
+        "type": "png",
+        "name": "MAX_ORANGE",
+        "file": "images/max_orange.png"
       },
       {
         "type": "png",
@@ -38,9 +75,7 @@
     ]
   },
   "targetPlatforms": [
-    "aplite",
-    "basalt",
-    "chalk"
+    "basalt"
   ],
   "sdkVersion": "3"
 }
